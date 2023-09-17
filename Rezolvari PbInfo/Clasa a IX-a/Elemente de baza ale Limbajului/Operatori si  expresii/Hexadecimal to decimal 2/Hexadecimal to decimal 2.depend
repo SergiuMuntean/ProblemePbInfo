@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1679035327 source:d:\codeblocks projects\hexadecimal to decimal 2\main.c
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+

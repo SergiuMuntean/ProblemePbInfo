@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1680511076 source:d:\codeblocks projects\radius\main.cpp
+	<iostream>
+	<cmath>
+	<iomanip>
+

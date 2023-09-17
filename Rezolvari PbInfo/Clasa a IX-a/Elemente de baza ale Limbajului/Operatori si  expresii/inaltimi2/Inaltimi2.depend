@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1680450006 source:d:\codeblocks projects\inaltimi2\main.cpp
+	<iostream>
+	<cmath>
+	<iomanip>
+

@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1686331204 source:d:\codeblocks projects\maxime si minime\platou1\main.cpp
+	<iostream>
+	<fstream>
+

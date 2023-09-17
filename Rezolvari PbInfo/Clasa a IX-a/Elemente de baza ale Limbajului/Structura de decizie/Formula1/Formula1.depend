@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1682413965 source:d:\winter 2023 c projects\formula1\main.cpp
+	<iostream>
+	<fstream>
+

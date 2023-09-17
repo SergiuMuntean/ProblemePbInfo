@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1681581563 source:d:\winter 2023 c projects\ec2\main.cpp
+	<iostream>
+	<cmath>
+	<iomanip>
+

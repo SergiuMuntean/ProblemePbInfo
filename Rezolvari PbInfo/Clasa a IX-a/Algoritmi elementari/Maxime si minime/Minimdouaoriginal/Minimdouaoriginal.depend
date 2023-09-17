@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1685717557 source:d:\codeblocks projects\maxime si minime\minimdouaoriginal\main.cpp
+	<iostream>
+	<fstream>
+

@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1680500029 source:d:\codeblocks projects\ariepatrulaterinscriptibil\main.cpp
+	<iostream>
+	<cmath>
+

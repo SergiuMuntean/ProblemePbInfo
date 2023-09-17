@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1680523296 source:d:\codeblocks projects\laturatriunghi\main.cpp
+	<iostream>
+	<cmath>
+	<iomanip>
+

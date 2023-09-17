@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1681136719 source:d:\winter 2023 c projects\rapunzel\main.cpp
+	<iostream>
+	<fstream>
+

@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1685353311 source:d:\codeblocks projects\sume produse numarari\n_suma\main.cpp
+	<iostream>
+	<fstream>
+

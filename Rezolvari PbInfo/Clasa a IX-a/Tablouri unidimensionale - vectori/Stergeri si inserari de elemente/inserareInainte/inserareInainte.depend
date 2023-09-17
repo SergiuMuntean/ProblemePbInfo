@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1691953363 source:d:\winter 2023 c projects\tablouri unidimensionale - vectori\stergeri si inserari de elemente\inserareinainte\main.c
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+

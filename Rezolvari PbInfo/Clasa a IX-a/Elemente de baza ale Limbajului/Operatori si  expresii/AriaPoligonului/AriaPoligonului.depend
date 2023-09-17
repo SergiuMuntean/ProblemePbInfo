@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1680445145 source:d:\codeblocks projects\ariapoligonului\main.cpp
+	<iostream>
+	<cmath>
+	<iomanip>
+

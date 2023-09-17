@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1685988591 source:d:\codeblocks projects\maxime si minime\difmin\main.cpp
+	<iostream>
+	<cmath>
+
