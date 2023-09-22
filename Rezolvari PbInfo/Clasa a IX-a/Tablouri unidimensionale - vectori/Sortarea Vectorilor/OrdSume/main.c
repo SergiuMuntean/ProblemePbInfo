@@ -15,7 +15,8 @@ void sumArray(int* array, int* newArray, int size, int* newSize)
     {
         int start = i+1;
         for(int j=start; j<size; j++)
-            newArray[k++] = array[i] + array[j];
+            if(array[i]!=array[j])
+                newArray[k++] = array[i] + array[j];
     }
     *newSize = k;
 }
@@ -45,7 +46,7 @@ void sortArray(FILE* output, int* array, int size)
 int main()
 {
     FILE *f, *g;
-    int arr[100], newArr[100], dimension, newDimension;
+    int arr[100], newArr[9000], dimension, newDimension;
     f = fopen("ordsume.in", "r");
     readArray(f, arr, &dimension);
     fclose(f);
