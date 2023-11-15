@@ -14,7 +14,7 @@ int main() {
     }
 
     for(int i = 999; i >= 100; i--) {
-        if(y != 0 && arr[i] == 0) {
+        if(y && arr[i] == 0) {
             z = i;
             found++;
             break;
