@@ -1,22 +1,35 @@
-#include <stdio.h>
-#include <math.h>
-int descompunere(int n)
-{
-    int i = 0;
-    while(pow(2,i)<=n)
-    {
-        i++;
+#include<stdio.h>
+#include<math.h>
+
+int power(int number) {
+    int product = 1;
+    while(product < number / 2) {
+        product *= 2;
     }
-    return i-1;
+    return product;
 }
 
-int main()
-{
-    int number;
-    scanf("%d", &number);
-    while(number>0)
-    {
-        number-=pow(2,descompunere(number));
+void descompunere(int number, int stopValue) {
+    int arr[1000];
+    int k = 0;
+    while(number > 0) {
+        if(number < stopValue) {
+            stopValue /= 2;
+        }
+        else {
+            arr[k++] = stopValue;
+            number = number - stopValue;
+        }
     }
+    for(int i = k - 1; i >= 0; i--) {
+        printf("%d ", arr[i]);
+    }
+}
+
+int main() {
+    int num;
+    scanf("%d", &num);
+    int value = power(num);
+    descompunere(num, value);
     return 0;
 }
