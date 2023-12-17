@@ -1,6 +1,6 @@
 #include<stdio.h>
 
-int egal(int number) {
+int Egal(int number) {
     int arr[9];
     int size = 0;
     while(number) {
