@@ -1,6 +1,9 @@
 #include<stdio.h>
 
 long long sumfactcif(int number) {
+    if(number == 0) {
+        return 1;
+    }
     long long sum = 0;
     while(number) {
         int rest = number % 10;
