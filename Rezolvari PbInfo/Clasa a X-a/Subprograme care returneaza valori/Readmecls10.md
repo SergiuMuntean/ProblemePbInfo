@@ -1,1 +1,0 @@
-## Atention, the problems are solved completely. The task was just to add the function inside the pbinfo website, so if you want to check my solutions, you can just copy paste the function inside the program of each solved problem.
