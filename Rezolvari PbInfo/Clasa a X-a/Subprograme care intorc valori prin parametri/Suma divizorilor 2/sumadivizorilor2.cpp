@@ -2,6 +2,7 @@
 using namespace std;
 
 void sum_div(int number, int& sum) {
+    sum = 0;
     for(int d = 1; d * d <= number; d++) {
         if(number % d == 0) {
             sum += number / d + d;
@@ -13,7 +14,7 @@ void sum_div(int number, int& sum) {
 }
 
 int main() {
-    int number, sum = 0;
+    int number, sum;
     cin >> number;
     sum_div(number, sum);
     cout << sum;
