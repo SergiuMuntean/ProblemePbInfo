@@ -7,6 +7,7 @@ void readArray(int* arr, int& dim) {
         cin >> arr[i];
     }
 }
+
 void F(int n, int a[], int& k) {
     int size = 0;
     for(int i = 0; i < n; i++) {
