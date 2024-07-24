@@ -1,5 +1,3 @@
-//Note: this is an attempt. It is 80/100 points.
-
 int CifDiferiteRec(int n, int k) {
     static int apeluri{};
     if(n == 0) {
@@ -7,6 +5,7 @@ int CifDiferiteRec(int n, int k) {
             if(!apeluri) {
         		return 1;
             } else {
+                apeluri = 0;
                 return 0;
             }
         }
